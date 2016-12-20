@@ -15,9 +15,10 @@ pip install -r requirements.txt
 ## Test Goals
 Our simple website has 2 main views, one for people who are interested in finding out more about our fictional company, and another for people who really are not interested. Each page has a different form for users to fill out to say why they are interested / not interested. 
 
-the 2 views are at:
+The two views are at the following urls:
 
 http://localhost:8000/interested/
+
 http://localhost:8000/not-interested/
 
 On both pages there is an option to sign up to the company newsletter. Inside the newsletters app, there is a utils.py file that contains the code to sign up users to the mailing list. We need both views in our app to be able to call this method if a user opts in to receive emails.
