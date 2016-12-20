@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% if fine_then %}
+		<h1 class="warning">WELL FINE THEN</h1>
+		<p>Have it your way. See if we care.</p>
+		<iframe src="//giphy.com/embed/8hD7cACHwyhUs" width="480" height="369" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/charles-laughton-8hD7cACHwyhUs">via GIPHY</a></p>
+	{% else %}
+		<h2 class="success">Great Thanks!</h2>
+		<p>No Really, thanks, we love you.</p>
+	{% endif %}
+	
+{% endblock content %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}
+
+{% block content %}
+<h2>Oh Really?!!</h2>
+<p>Perhaps you&apos;d like to explain yourself then.</p>
+
+<form action="" method="POST">
+	{% csrf_token %}
+	{% bootstrap_form form %}
+	<button type="submit" class="btn btn-success">Submit it</button>
+</form>
+
+	
+{% endblock content %}
